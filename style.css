@@ -1,0 +1,114 @@
+/* Configurações Globais */
+body {
+    font-family: 'Montserrat', sans-serif; /* Fonte elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaf8; /* Um tom de branco "quente", pêssego/bege claro */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #5d4037; /* Um tom de marrom */
+}
+
+header p {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #8d6e63; /* Um tom de marrom mais claro */
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 40px auto; /* Centraliza o conteúdo */
+    padding: 0 20px;
+}
+
+/* Seção de Serviços */
+.servicos h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: #5d4037;
+    margin-bottom: 30px;
+}
+
+.card-servico {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03); /* Sombra suave */
+    transition: transform 0.3s ease; /* Efeito ao passar o mouse */
+}
+
+.card-servico:hover {
+    transform: translateY(-5px); /* Eleva o card ao passar o mouse */
+}
+
+.card-servico h3 {
+    margin-top: 0;
+    color: #5d4037;
+}
+
+.card-servico p {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.card-servico .preco {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #c7a17a; /* Tom dourado/bronze */
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Seção de Agendamento (CTA) */
+.cta-agendamento {
+    text-align: center;
+    background-color: #5d4037; /* Cor primária (marrom) */
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.cta-agendamento h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.cta-agendamento p {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao-whatsapp {
+    display: inline-block;
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px; /* Botão "pilula" */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.botao-whatsapp:hover {
+    background-color: #1EAE57; /* Cor mais escura ao passar o mouse */
+}
